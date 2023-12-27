@@ -5,6 +5,11 @@ import '../Header.scss';
 
 export default function Header(props) {
   const {cart} = props
+
+  const cartCount = cart.reduce(
+    (total, product) => total + product.quantity,
+    0
+  );
   return (
     <div className="background-color">
     <nav className="navbar navbar-expand-lg navbar-light" id="navBar">
@@ -46,7 +51,7 @@ export default function Header(props) {
       <ul className="navbar-nav ml-auto">
         <li className="nav-item">
           <Link className="nav-link custom-text-style" to="/cart">
-            <i className="bi bi-cart"></i> {cart.length}
+            <i className="bi bi-cart"></i> {cartCount}
           </Link>
         </li>
       </ul>
