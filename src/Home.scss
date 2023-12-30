@@ -7,22 +7,32 @@
         margin-top: 30vh;
         margin-bottom: 4vh;
     }
-    button{
-    font-family: 'Poppins', sans-serif;
-    font-weight: 300;
-    font-size: 2vh;
-    letter-spacing: .1em;
-    background-color: pink;
-    border: none;
-    margin-left: 44%;
-    padding: 20px 40px;
-    transition: all .2s ease-in-out; 
-}
-button:hover{
-    transform: scale(1.1); 
+
+    //     button{
+    //     font-family: 'Poppins', sans-serif;
+    //     font-weight: 300;
+    //     font-size: 2vh;
+    //     letter-spacing: .1em;
+    //     background-color: pink;
+    //     border: none;
+    //     margin-left: 44%;
+    //     padding: 20px 40px;
+    //     transition: all .2s ease-in-out; 
+    // }
+    // button:hover{
+    //     transform: scale(1.1); 
+    // }
+    h1{
+        color: white;
+    }
+    .bd-placeholder-img{
+        aspect-ratio: 16/9;
+        max-height: calc(100vh - 49px);
+        filter: brightness(50%);
+        object-fit: cover;
+    }
 }
 
-}
 
 
 
@@ -35,15 +45,8 @@ button:hover{
 
 }
 
-@media (min-width: 768px) {
+@media (min-width: 768px) {}
 
-    }
-
-    .aboutpage {
-        h1 {
-            color: red;
-        }
-    }
 
 @media (min-width: 992px) {
     // here for small computers

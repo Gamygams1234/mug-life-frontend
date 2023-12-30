@@ -1,6 +1,8 @@
 .aboutpage {
     padding: 20px;
     margin-top: 10vh;
+    text-align: center;
+    display: grid;
   
     h1 {
       font-size: 2.5rem;
@@ -20,6 +22,8 @@
       font-size: 1.5rem;
       margin-top: 20px;
       font-family: 'Poppins', sans-serif;
+      font-weight: 700;
+      
     }
   
     p {
@@ -27,23 +31,40 @@
       font-family: 'Raleway', sans-serif;
     }
     #cupOJoe{
-        height:80vh;
+        // height:80vh;
+        width: 100%;
+        height: auto;
+        margin-bottom: 1rem;
     }
 
+
     @media (min-width: 576px) {
-      padding: 20px 5%;
+      // padding: 20px 5%;
     }
   
     @media (min-width: 768px) {
-      padding: 20px 10%;
+      // padding: 20px 10%;
+      .aboutpage {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        .header{
+          grid-column: 1 / span 2;
+        }
+        .left-side{
+          grid-column: 1;
+        }
+        .right-side{
+          grid-column: 2;
+        }
+      }
     }
   
     @media (min-width: 992px) {
-      padding: 20px 15%;
+      // padding: 20px 15%;
     }
   
     @media (min-width: 1200px) {
-      padding: 20px 25%;
+      // padding: 20px 25%;
     }
   }
 
