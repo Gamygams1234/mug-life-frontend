@@ -7,22 +7,15 @@
   justify-content: center;
   animation: fadeIn 2s;
 
-  #backToShop {
+  a {
     margin-bottom: 20px;
-    color: #969f84;
+    color: #1c1b1b;
     text-decoration: none;
     display: flex;
-    font-style: normal;
   }
-
-
   a:hover {
     text-decoration: none;
-  }
-
-  #backToShop:hover {
-    color: #969f84 !important;
-    text-decoration: none;
+    color: #969f84;
   }
 
   .product-details-container {

@@ -55,7 +55,7 @@ export default function Product(props) {
     <div className="page product-page">
     {showSuccess()}
       <Link to="/shop">
-        <i className="bi bi-arrow-left"> back to shop</i>
+        <i className="bi bi-arrow-left" style={{ fontStyle: "normal" }}> back to shop</i>
       </Link>
   
       <div className='product-details-container'>
